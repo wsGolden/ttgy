@@ -24,13 +24,6 @@ module.exports = {
     			'^/mz':''
     		},
     		changeOrigin:true
-    	},
-    	'/v3':{
-    		target:'https://wap.fruitday.com/',
-    		pathRewrite:{
-    			'^/v3':'/v3'
-    		},
-    		changeOrigin:true
     	}
     },
 

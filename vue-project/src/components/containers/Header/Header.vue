@@ -1,7 +1,7 @@
 <template>
 	<header class='app-header'>
-		<img src="https://huodongjd1.fruitday.com/sale/appxx/ci_20171025_1.png" alt="" />
-		
+		<tab-bar :isNavShow='isNavShow' :toggleNav='toggleNav'></tab-bar>
+		<tab-nav :isNavShow='isNavShow' :toggleNav='toggleNav'></tab-nav>
 	</header>
 </template>
 
@@ -26,8 +26,5 @@
 	}
 </script>
 
-<style lang='sass'>
-	    width: .51rem;
-    height: .14rem;
-    margin-right: .05rem;
+<style>
 </style>
